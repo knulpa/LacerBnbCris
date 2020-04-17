@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #ef5350;
+}
+.nav-wrapper {
+    padding: 0 5em;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ef5350;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .section-adatable {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header{
+    margin-top: 15%;
+  }
+  .header-subtitle{
+    margin-top: 9%;
+    font-size: 1.3em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper {
+    padding: 0 1em;
+  }
+}
+
+#Servizio h5{
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+.col-margin{
+  margin-top: 17%;
+  margin-bottom: 17%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.adatable-icon{
+  font-size: 7em;
+  margin-top: 8%;
+}
+
+.form-registrazione{
+  background-color: blue;
+}
+
+.button-width{
+  width: 100%;
+}
+.ospita-subtitle{
+    margin-top: 9%;
+    font-size: 1.3em;
+    line-height: 2em;
+  }
+
+footer.page-footer {
+  margin: 0;
+  background-color: #3D5467;
+}
+.social-icon{
+  font-size: 1.3em;
+  color: white;
+  padding: 0 1em;
+}
+
+.social-icon:hover{
+  color: #ef5350;
+}
